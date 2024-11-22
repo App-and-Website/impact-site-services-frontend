@@ -7,17 +7,27 @@
 .header_logo img{
     height: 120px;
     object-fit: contain;
-    margin-left: -25px;
+    transform: translate(-155px);
+}
+@media screen and (max-width: 1600px) {
+    .header_logo img{
+        height: 100px;
+        transform: translate(-130px);
+    }
+}
+@media screen and (max-width: 1500px) {
+    .header_logo img{
+        transform: translate(-80px);
+    }
 }
 @media screen and (max-width: 1400px) {
     .header_logo img{
-        height: 100px;
-        margin-left: -10px;
+        transform: translate(-60px);
     }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1320px) {
     .header_logo img{
-        margin-left: -20px;
+        transform: translate(-40px);
     }
 }
 @media screen and (max-width: 1200px) {
