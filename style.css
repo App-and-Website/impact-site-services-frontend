@@ -709,6 +709,16 @@ background: #2f4040;
     line-height: 60px!important;
     margin-bottom: 25px!important;
 }
+} 
+@media screen and (max-width: 1200px){
+.why_choose_row{
+    grid-template-columns: 50% 50%;
+}
+}
+@media screen and (max-width: 768px){
+    .why_choose_row{
+        grid-template-columns: 100%;
+    }
 }
 
 .testimonial_area .testi-block{
