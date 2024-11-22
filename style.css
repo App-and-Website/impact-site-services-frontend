@@ -626,17 +626,19 @@ background: #2f4040;
 .hdc_title_mobile{
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+    .hdc_title_desk{
+        display: none;
+    }
     .hdc_title_mobile{
         display: flex;
         flex-direction: column;
     }
+}
+@media screen and (max-width: 768px) {
     .img_box_custom{
         padding: 5px;
         margin-top: -25px;
-    }
-    .hdc_title_desk{
-        display: none;
     }
 }
 .img_box_custom img{
