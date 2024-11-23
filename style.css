@@ -491,7 +491,7 @@ background: #2f4040;
     margin-top: 50px;
 }
 .mv_item{
-    background: #e7eee6;
+    background: #edf5f8;
     padding: 50px 50px 30px 50px;
 }
 .mv_row_main{
@@ -731,6 +731,12 @@ background: #2f4040;
     .why_choose_row{
         grid-template-columns: 100%;
     }
+    .ceo_image{
+        margin-top: -30px;
+    }
+    .pdtotpdec{
+        margin-top: -30px;
+    }
 }
 
 .testimonial_area .testi-block{
@@ -742,4 +748,12 @@ background: #2f4040;
 .testimonial_area .testi-block p{
     color: #ccc;
 }
+.ceo_section{
+    border-radius: 6px;
+}
+.ceo_image img{
+  border: 2px solid #38B6FF;
+  border-radius: 4px;
+}
+
 
