@@ -338,7 +338,7 @@ object-fit: cover;
     padding-top: 12px;
 }
 .free_quote_textarea textarea{
-    min-height: 60px!important;
+    min-height: 80px!important;
 }
 .form_home_free_quote_main{
     margin-top: 70px;
@@ -499,7 +499,7 @@ background: #2f4040;
     column-gap: 40px;
 }
 .brdcm_text_contact{
-    color: #719c6c!important;
+    color: #5aa1be!important;
 }
 .blog_row .blog-img{
     max-height: 100%;
