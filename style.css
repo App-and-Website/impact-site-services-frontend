@@ -370,6 +370,9 @@ color: #719c6c!important;
 .desc_head p{
     width: 70%;
 }
+.padding_custom111_btm{
+    padding-bottom: 40px;
+ }
 @media screen and (max-width: 1200px) {
 .service_item_content{
     padding-top: 25px;
@@ -407,7 +410,14 @@ color: #719c6c!important;
     .footer_privacy a{
         text-align: left;
     } */
+     .padding_custom111_btm{
+        padding-bottom: 0;
+     }
+     .mt_decresed{
+        margin-top: -25px;
+     }
 }
+
 .copyright-text a{
     color: #7fb6cd;
 }
@@ -541,6 +551,13 @@ background: #2f4040;
         max-height: auto;
         max-width: 100%;
     }
+    .cta_small_head  .title_fdecreased{
+        font-size: 28px!important;
+        font-weight: 600;
+     }
+     .cta_small_head p{
+        color: #ddd!important;
+     }
 }
 
 
