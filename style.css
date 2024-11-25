@@ -788,3 +788,30 @@ background: #2f4040;
     display: flex;
     justify-content: center;
 }
+
+.projects_item{
+    margin: 12px 0;
+}
+.projects_item_wrap{
+    background: #edf5f8;
+    
+    border: 1px solid #4187a5;
+
+}
+.projects_item_wrap h4{
+    background: #4187a5; 
+    padding: 10px 20px;
+    color: #fff;
+}
+.gallery_images_items{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.projects_item_wrap h6{
+    color: #4187a5;
+}
+.fancy_item img{
+    border: 4px solid #fff;
+}
+
+
