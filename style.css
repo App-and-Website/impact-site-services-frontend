@@ -815,3 +815,28 @@ background: #2f4040;
 }
 
 
+.certification_section h3{
+   font-size: 16px;
+   color: #4187a5;
+}
+.certification_section:hover h3{
+    color: #4187a5!important;
+ }
+.certification_section .feature-card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0;
+}
+.certification_section .feature-card.style2 {
+    padding: 30px 25px;
+    gap: 6px!important;
+    height: 120px;
+}
+@media (max-width: 1199px) {
+    .certification_section .feature-card.style2 {
+        gap: 6px!important;
+    }
+}
+.certification_section img{
+    border-right: 1px solid #ccc;
+    margin-right: 6px;
+}
